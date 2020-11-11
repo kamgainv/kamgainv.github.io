@@ -1,0 +1,39 @@
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+#wrapper {
+    flex: 1;
+}
+.validated_ul {
+    list-style: inside;
+    list-style-image: url(/assets/images/validated.png);
+}
+img[src~="bordered"] {
+    border: 0.5px solid black;
+}
+img[src~="is-40by30"] {
+    width: 40%;
+    height: 30%;
+}
+img[src~="on-click-fullscreen"]:active {
+    width: 100%;
+    height: 100%;
+}
+.display-flex {
+    display: flex;
+}
+ul {
+    list-style: inside;
+}
+body {
+    padding-left: 3%;
+}
+.mb-7 {
+    margin-bottom: 4.5rem;
+}
+.mt-8 {
+    margin-top: 6rem;
+}

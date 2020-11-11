@@ -1,0 +1,25 @@
+---
+layout: default
+title: Mes projets
+---
+<section>
+    <div class="container has-text-centered mb-5">
+        <p class="is-size-5">On this blog-like page, you will be able to see some of the projects I've done, and what I used to do them.</p>
+    </div>
+    <div class="container">
+        <div class="columns is-multiline is-justify-content-center" id="projects-holder">
+            {% for post in site.posts %}
+            <div class="column is-5 m-5">
+                <a href="{{ post.url }}" class="box social">
+                    <img src="{{ post.image }}" class="ml-5 mt-5">
+                    <div class="card-content">
+                        <p class="title">{{ post.title }}</p>
+                        <p class="post-excerpt">{{ post.excerpt }}</p>
+                    </div>
+                </a>
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+
+</section>
