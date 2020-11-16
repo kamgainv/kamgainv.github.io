@@ -14,24 +14,36 @@
       <nav class="navbar mt-6 mb-7" role="navigation" aria-label="main navigation">
         <div class="container">
           <div class="navbar-brand">
-            <a class="navbar-item title" href="/index.html">Kamil. </a>
+            <a class="navbar-item title is-hidden-desktop" href="/index.html">Kamil.</a>
+            <!-- <label class="nav-toggle navbar-burger is-active" for="nav-toggle-state">
+              <span></span>
+              <span></span>
+              <span></span>
+            </label> -->
+            <!-- <input type="checkbox" id="nav-toggle-state" /> -->
           </div>
-          <div class="navbar-menu">
+          <div class="navbar-menu is-active">
             <div class="navbar-start">
               {% for item in site.data.navigation %}
               <a href="{{ item.link }}" class="navbar-item">
+                {% if item.big %}
+                <div class="title is-hidden-touch">
+                  {{ item.name }}
+                </div>
+                {% else %}
                 <b>
                   {{ item.name }}
                 </b>
+                {% endif %}
               </a>
               {% endfor %}
             </div>
             <div class="navbar-end">
               <a class="navbar-item" href="https://wwW.github.com/Akidily">
-                <img src="/assets/images/github.png">
+                <img src="/assets/images/github.svg">
               </a>
               <a class="navbar-item" href="mailto:kamil.gaineev@gmail.com?">
-                <img src="/assets/images/gmail.png" width="32">
+                <img src="/assets/images/gmail.svg" width="32">
               </a>
             </div>
           </div>
@@ -48,6 +60,7 @@
         © Copyright Kamil Gaineev.
         <br> This project is available on <a href="https://github.com/akidily/kamil-gaineev">GitHub.</a>
         <br> Want to contact me? Send an email at kamil.gaineev@gmail.com.
+        <br>Icons made by <a href="https://www.flaticon.com/authors/dave-gandy">Dave Gandy</a>
       </p>
       <a href="https://bulma.io">
         <img src="/assets/images/made-with-bulma.png" alt="Made with Bulma" width="128" height="24">
