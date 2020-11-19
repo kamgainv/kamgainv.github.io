@@ -1,6 +1,6 @@
 - name: Kamil.
   link: /index.html
-  big: true
+  title: true
 - name: Projects
   link: /pages/projects.html
 - name: CV
