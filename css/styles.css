@@ -46,15 +46,10 @@ footer {
     padding-left: 0% !important;
     padding-right: 0% !important;
 }
-.burger-ul {
-    display: none;
-    list-style: none;
-    margin-bottom: 10%;
-}
-input[type=checkbox]{
+#checkbox_toggle{
     display: none;
 }
-input[type=checkbox]:checked ~ .burger-ul {
+#checkbox_toggle:checked ~ .navbar-menu {
     display: block;
 }
 @media only screen and (max-width: 1023px) {
