@@ -5,14 +5,14 @@ title: My projects
 <section>
     <div class="container">
         <p class="has-text-centered">On this blog-like page, you will be able to see some of the projects I've done, and what I used to do them.</p>
-        <div class="columns is-multiline is-justify-content-center">
+        <div class="columns is-multiline is-centered">
             {% for post in site.posts %}
-            <div class="column is-5 m-5">
+            <div class="column is-5 m-5 is-full-touch">
                 <a href="{{ post.url }}" class="box social">
-                    <img src="{{ post.image }}" class="ml-5 mt-5">
+                    <img src="{{ post.image }}" class="p-5">
                     <div class="card-content">
                         <p class="title">{{ post.title }}</p>
-                        <p class="post-excerpt">{{ post.excerpt }}</p>
+                        <p class="is-size-3">{{ post.excerpt }}</p>
                     </div>
                 </a>
             </div>
