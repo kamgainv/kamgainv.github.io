@@ -1,15 +1,15 @@
 ---
 layout: default
 ---
-<div class="container">
-    <h1 class="title mb-0">{{ page.title }}</h1>
-    <p class="is-size-5 mb-6">{{ page.date | date_to_string }} - {{ page.author }}</p>
-    <!-- <div class="is-size-4"> -->
+<section>
+    <div class="container">
+        <h1 class="title mb-0">{{ page.title }}</h1>
+        <p class="is-size-5 mb-6">{{ page.date | date_to_string }} - {{ page.author }}</p>
         {{ content }}
         {% if page.github %}
         <p>This project has a repository in GitHub. If you want to see it, click <a href="{{ page.project_link }}"><b>here!</b></a></p>
         {% else %}
         <p>If you want to see this project's repository, click <a href="{{ page.project_link }}"><b>here!</b></a></p>
         {% endif %}
-    <!-- </div> -->
-</div>
+    </div>
+</section>
