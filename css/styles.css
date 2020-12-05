@@ -37,6 +37,7 @@ ul {
 
 #checkbox_toggle:checked~.navbar-menu {
     display: block;
+    margin-bottom: 2rem;
 }
 
 /* Mobile */
@@ -54,7 +55,7 @@ ul {
         font-size: 16px;
     }
     nav {
-        margin:  4.5rem 0;
+        margin:  3rem 0 4.5rem;
     }
 }
 
