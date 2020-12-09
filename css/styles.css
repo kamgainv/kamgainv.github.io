@@ -9,7 +9,7 @@ body {
 
 .validated_ul {
     list-style: inside;
-    list-style-image: url(/assets/images/validated.png);
+    list-style-image: url(/assets/images/validated.png) ;
 }
 
 img[src~="bordered"] {
@@ -37,13 +37,16 @@ ul {
 /* Mobile */
 @media only screen and (max-width: 1023px) {
     section {
-        margin: 0 5%;
+        margin: 0 5% 0 5%;
     }
     nav {
         margin: 1rem 1px 2rem;
     }
-    body {
-        zoom: 1.5;
+    .navbar-burger, .navbar-item {
+        zoom: 2;
+    }
+    p, li {
+        font-size: 25px;
     }
 }
 /* Desktop */
@@ -54,6 +57,9 @@ ul {
     img[src~="is-40by30"] {
         width: 40%;
         height: 30%;
+    }
+    .is-5-desktop {
+        margin: 1.5rem;
     }
 }
 
