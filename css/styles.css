@@ -46,7 +46,10 @@ ul {
         zoom: 2;
     }
     p, li {
-        font-size: 25px;
+        font-size: 30px;
+    }
+    #made-with-bulma {
+        width: 256px;
     }
 }
 /* Desktop */
@@ -60,6 +63,9 @@ ul {
     }
     .is-5-desktop {
         margin: 1.5rem;
+    }
+    #made-with-bulma {
+        width: 128px ;
     }
 }
 

@@ -3,8 +3,8 @@ layout: default
 ---
 <section>
     <div class="container">
-        <h1 class="title mb-0">{{ page.title }}</h1>
-        <p class="is-size-5 mb-6">{{ page.date | date_to_string }} - {{ page.author }}</p>
+        <h1 class="title is-size-1 mb-0">{{ page.title }}</h1>
+        <p class=" mb-6">{{ page.date | date_to_string }} - {{ page.author }}</p>
         {{ content }}
         {% if page.github %}
         <p>This project has a repository in GitHub. If you want to see it, click <a href="{{ page.project_link }}"><b>here!</b></a></p>
