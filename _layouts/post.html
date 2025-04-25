@@ -7,9 +7,9 @@ layout: default
         <p class=" mb-6">{{ page.date | date_to_string }} - {{ page.author }}</p>
         {{ content }}
         {% if page.github %}
-        <p>This project has a repository in GitHub. If you want to see it, click <a href="{{ page.project_link }}"><b>here!</b></a></p>
+        <p>Ce projet a une page sur github. Si vous voulez la voir, cliquez <a href="{{ page.project_link }}"><b>ici!</b></a></p>
         {% else %}
-        <p>If you want to see this project's repository, click <a href="{{ page.project_link }}"><b>here!</b></a></p>
+        <p>En raison de la nature de ce projet, il n'a pas de page sur github. Si vous êtes intéréssés par le code source, veuillez me contacter avec les références en bas de page.</p>
         {% endif %}
     </div>
 </section>
