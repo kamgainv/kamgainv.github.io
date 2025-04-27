@@ -6,7 +6,6 @@ excerpt_separator: <!--more-->
 github: false
 ---
 
-<p class="is-size-4"> Introduction </p>
 Ce projet a été réalisé avec pour inspiration mon collège à ce moment, c'est une application mobile conçue pour android qui regroupe de nombreux renseignements sur le collège<!--more--> obtenues sur le site officiel, dans un format plus accessible et pratique.
 <!--more-->
 <p class="is-size-4"> Fonctionnalités</p>
@@ -16,7 +15,7 @@ Voici quelques captures d'écran de l'application en action :
 ![Capture d'écran 1](/assets/images/screenshot_app_sfa1.jpg# bordered is-40by30 on-click-fullscreen)  
 *L'écran d'accueil de l'application.*
 
-![Capture d'écran 2](/assets/images/screenshot_app_sfa2.jpg# bordered is-40by30 on-click-fullscreen)  
+![Capture d'écran 2](/assets/images/screenshot_app_sfa2.jpg# bordered is-40by30 on-click-fullscreendr)  
 *Informations diverses sur le collège*
 
 ![Capture d'écran 3](/assets/images/screenshot_mit_app_inventor.png# bordered is-40by30 on-click-fullscreen)  

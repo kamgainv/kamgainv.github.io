@@ -3,6 +3,7 @@ layout: post
 author: Kamil
 image: /assets/images/python.png
 project_link: https://github.com/akidily/nickname-generator
+github: true
 excerpt_separator: <!--more-->
 ---
 J'ai fait ce projet avec pour but de m'entrainer avec quelque chose de plus complexe en python, pas dans la réalisation, mais dans la mise en problème.

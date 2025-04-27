@@ -2,6 +2,7 @@
 layout: post
 author: Kamil
 project_link: https://github.com/akidily/first-personnal-site
+github: true
 image: \assets\images\html_bootstrap.png
 excerpt_separator: <!--more-->
 ---
